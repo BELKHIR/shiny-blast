@@ -1,6 +1,6 @@
 #
 # This is merely an adaptation of https://github.com/ScientistJake/Shiny_BLAST
-# Adde a way to upload sequences to create a new blast database
+# Added a way to upload sequences to create a new blast database
 # Added alignment visualisation with msaR
 # A Dockerfile can be used to deploy the app inside a container
 

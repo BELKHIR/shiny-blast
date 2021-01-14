@@ -1,4 +1,11 @@
-# This is merely an adaptation of Jake Warner's Shiny_BLAST: https://github.com/ScientistJake/Shiny_BLAST
+## This is merely an adaptation of Jake Warner's Shiny_BLAST: https://github.com/ScientistJake/Shiny_BLAST
+
+* Added a way to upload sequences to create a new blast database
+* Added alignment visualisation with msaR
+* Added a download button to save blast results 
+* A Dockerfile can be used to deploy the app inside a container
+
+
  
 # Howto install :
 
@@ -11,7 +18,7 @@ cd shiny_blast
 ## Directories to share between your file system and the container
 
 All your query files must reside on a directory that will be mounted in a directory named /Data inside the container  
-e.g. /home/$USER/fastaFiles this will be maped to /Data
+e.g. /home/$USER/fastaFiles that will be maped to /Data
 
 All results files will be in a dir named /Results inside the container
 Create a directory that will be maped to /Results 
