@@ -3,6 +3,7 @@
 * Added a way to upload sequences to create a new blast database
 * Added alignment visualisation with msaR
 * Added a download button to save blast results 
+* Use nr blast database remotely (-remote option)
 * A Dockerfile can be used to deploy the app inside a container
 
 
