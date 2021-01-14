@@ -12,7 +12,7 @@ tabHome = fluidPage(
   
             textAreaInput('query', 'Input sequence:', value = "", placeholder = "", width = "600px", height="200px"),
             fluidRow(   
-            box( width = 2, selectInput("db", "Select Database  (You can create New one via New Database menu) :", choices=c("LvTx","nr"), width="600px")),
+            box( width = 2, selectInput("db", "Select Database  (You can create New one via New Database menu) :", choices=c("nr"), width="600px")),
             box( width = 2, selectInput("program", "Program:", choices=c("blastn","tblastn"), width="100px")),
             box( width = 2, selectInput("eval", "e-value:", choices=c(1,0.001,1e-4,1e-5,1e-10), width="120px")),
              

@@ -48,7 +48,7 @@ createDBresUpdate();
       if (!is.integer(attr(cmdOut,"status")) ) {
 
       collection <- c(DB_COLLECTION, str_replace_all(input$nameDB,' ','_'))
-      updateSelectInput(session, "db", label = "Databse:", choices = collection)
+      updateSelectInput(session, "db", label = "Database:", choices = collection)
       DB_COLLECTION <<- collection
 
       showModal(modalDialog(
