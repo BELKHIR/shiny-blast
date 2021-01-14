@@ -6,6 +6,7 @@
 * A Dockerfile can be used to deploy the app inside a container
 
 
+![app screenShot](screnShot.png)
  
 # Howto install :
 
