@@ -11,7 +11,7 @@
  
 # Howto install :
 
-## clone the repository: if you d'ont have a copy of the app
+## clone the repository: 
 
 git clone https://github.com/BELKHIR/shiny-blast.git
 

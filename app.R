@@ -51,9 +51,9 @@ server <- function( input, output, session) {
   # disable the downdload button on page load
   shinyjs::disable("downloadblastRes")
 
-  shinyFileChoose(input, "serverDbfile", root=c(Data="/Data",Results="/Results"),filetypes=c('fasta', 'fas'), session = session)
+  shinyFileChoose(input, "serverDbfile", root=c(Data="/Data",Results="/Results"),filetypes=c('fasta', 'fas', 'fna'), session = session)
 
-  shinyFileChoose(input, "serverqueryfile", root=c(Data="/Data",Results="/Results"),filetypes=c('fasta', 'fas'), session = session)
+  shinyFileChoose(input, "serverqueryfile", root=c(Data="/Data",Results="/Results"),filetypes=c('fasta', 'fas', 'fna'), session = session)
 
   for(d in list.dirs(path_to_database)) {
     if(basename(d) != "db") {
